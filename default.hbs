@@ -23,8 +23,7 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/github.min.css">
     <link rel="stylesheet" href="{{asset "css/steam.css"}}">
 
-    {{!> meta}}
-    {{!> google-analytics}}
+    {{> meta}}
 
     {{#if pagination.next}}<link href="{{page_url pagination.next}}" rel="prefetch">{{/if}}
     {{ghost_head}}
